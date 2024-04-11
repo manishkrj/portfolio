@@ -75,16 +75,14 @@ body {
 }
 .brief{
     display: flex;
-    /* align-items: center; */
-    /* padding-top: 1rem; */
     color: #1f353b;
-    /* height: 70%; */
 }
 .brief div{
     align-items: center;
 }
 .summary{
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
     background-color: #e6eaff;
     display: flex;
     flex-direction: row;
